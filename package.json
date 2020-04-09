@@ -1,7 +1,7 @@
 {
-  "name": "@lensesio/cypress-websocket-testing",
+  "name": "@surplex/cypress-websocket-testing",
   "description": "WebSocket testing plugin for Cypress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Lenses.io",
   "license": "Apache",
   "main": "lib/index.js",
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensesio/cypress-websocket-testing.git"
+    "url": "git+https://github.com/surplex/cypress-websocket-testing.git"
   },
   "bugs": {
-    "url": "https://github.com/lensesio/cypress-websocket-testing/issues"
+    "url": "https://github.com/surplex/cypress-websocket-testing/issues"
   },
   "keywords": [
     "cypress",
@@ -52,8 +52,5 @@
     "tslint-plugin-prettier": "2.0.1",
     "typescript": "3.7.2"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "tag": "latest"
-  }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
