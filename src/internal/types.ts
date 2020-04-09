@@ -34,6 +34,10 @@ export interface StreamRequestOptions<T = any> {
    */
   startUpMessage: any;
   /**
+   * Function is executed after the connection to the websocket server is established
+   */
+  startUpFn(): void;
+  /**
    * Check stream message in order to tell the command to close the stream and return the results
    * By default it will close after first
    *

@@ -5,6 +5,7 @@ const WEBSOCKET_OPTIONS_DEFAULTS: StreamRequestOptions = {
   retryDelay: 4000,
   retryAttempts: 5,
   startUpMessage: null,
+  startUpFn: (): void => {},
   retryUntilFn: (): boolean => true,
   takeWhileFn: (): boolean => false
 };

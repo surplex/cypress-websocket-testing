@@ -48,6 +48,7 @@ export const streamRequestCommand: RequestCommand = {
       retryAttempts,
       streamTimeout,
       startUpMessage,
+      startUpFn,
       retryUntilFn,
       takeWhileFn
     } = streamOptions;
@@ -63,6 +64,7 @@ export const streamRequestCommand: RequestCommand = {
         {
           openObserver: {
             next: () => {
+              startUpFn();
               if (startUpMessage) {
                 stream.next(startUpMessage);
               }
