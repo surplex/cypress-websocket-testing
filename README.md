@@ -22,6 +22,7 @@ Test your WebSocket endpoints using [Cypress](https://docs.cypress.io/).
 - [PRs](#prs)
 - [TODO](#TODO)
 - [License](#license)
+- [Status](#status)
 
 ## Background
 
@@ -173,3 +174,6 @@ When committing, remember to use `npm run commit`, in order to start commitizen.
 ## LICENSE
 
 [Apache 2.0](LICENSE)
+
+## Status
+![.github/workflows/main.yml](https://github.com/surplex/cypress-websocket-testing/workflows/.github/workflows/main.yml/badge.svg?branch=master)
