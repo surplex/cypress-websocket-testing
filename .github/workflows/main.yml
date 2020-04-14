@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-node@v1 #TODO: Add Tests
         with:
           node-version: 12
+      - run: npm install
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
