@@ -1,7 +1,7 @@
 {
   "name": "@surplex/cypress-websocket-testing",
   "description": "WebSocket testing plugin for Cypress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Lenses.io",
   "license": "Apache",
   "main": "lib/index.js",
