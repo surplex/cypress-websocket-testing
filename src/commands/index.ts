@@ -64,10 +64,10 @@ export const streamRequestCommand: RequestCommand = {
         {
           openObserver: {
             next: () => {
-              startUpFn();
               if (startUpMessage) {
                 stream.next(startUpMessage);
               }
+              startUpFn();
             }
           }
         },
